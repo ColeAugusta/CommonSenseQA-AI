@@ -5,7 +5,7 @@ from torch_geometric.utils import negative_sampling
 from build_graph import load_graph, load_mappings
 import os
 
-
+# GNN composed of a simple GCN and GAT, both 2 layers
 
 class GCNsimple(torch.nn.Module):
     
@@ -33,7 +33,7 @@ class GCNsimple(torch.nn.Module):
         return (src * dst).sum(dim=-1)
 
 
-class SimpleGAT(torch.nn.Module):
+class GATsimple(torch.nn.Module):
     
     def __init__(self, input_dim, hidden_dim, output_dim, heads=4):
         super().__init__()
@@ -51,28 +51,16 @@ class SimpleGAT(torch.nn.Module):
         return x
     
     def encode(self, x, edge_index):
-        """Get node embeddings"""
         return self.forward(x, edge_index)
     
     def decode(self, z, edge_index):
-        """Decode embeddings to predict edge existence"""
         src = z[edge_index[0]]
         dst = z[edge_index[1]]
         return (src * dst).sum(dim=-1)
 
-
+# splits edges into train/val/test index sets
 def split_edges(data, train_ratio=0.85, val_ratio=0.10):
-    """
-    Split edges into train/val/test sets
-    
-    Args:
-        data: PyTorch Geometric Data object
-        train_ratio: Proportion for training
-        val_ratio: Proportion for validation
-        
-    Returns:
-        train_edge_index, val_edge_index, test_edge_index
-    """
+
     num_edges = data.edge_index.shape[1]
     perm = torch.randperm(num_edges)
     
@@ -89,41 +77,27 @@ def split_edges(data, train_ratio=0.85, val_ratio=0.10):
     
     return train_edge_index, val_edge_index, test_edge_index
 
-
+# train one epoch per prediction link
 def train_link_prediction(model, data, train_edge_index, optimizer):
-    """
-    Train one epoch for link prediction
-    
-    Args:
-        model: GNN model
-        data: Graph data
-        train_edge_index: Training edges
-        optimizer: Optimizer
-        
-    Returns:
-        Average loss for the epoch
-    """
+
     model.train()
     optimizer.zero_grad()
     
-    # Encode node embeddings
     z = model.encode(data.x, train_edge_index)
     
-    # Positive edges
     pos_edge_index = train_edge_index
     
-    # Negative sampling
+    # negative sampling for some reason
     neg_edge_index = negative_sampling(
         edge_index=train_edge_index,
         num_nodes=data.num_nodes,
         num_neg_samples=pos_edge_index.shape[1]
     )
     
-    # Decode
     pos_pred = model.decode(z, pos_edge_index)
     neg_pred = model.decode(z, neg_edge_index)
     
-    # Binary cross entropy loss
+    # binary cross entropy loss
     pos_loss = F.binary_cross_entropy_with_logits(pos_pred, torch.ones_like(pos_pred))
     neg_loss = F.binary_cross_entropy_with_logits(neg_pred, torch.zeros_like(neg_pred))
     loss = pos_loss + neg_loss
@@ -133,31 +107,17 @@ def train_link_prediction(model, data, train_edge_index, optimizer):
     
     return loss.item()
 
-
+# tests GNN with loaded graph, returns as AUC score
 @torch.no_grad()
 def test_link_prediction(model, data, edge_index):
-    """
-    Test link prediction performance
-    
-    Args:
-        model: GNN model
-        data: Graph data
-        edge_index: Test edges
-        
-    Returns:
-        AUC score
-    """
     from sklearn.metrics import roc_auc_score
     
     model.eval()
     
-    # Encode
     z = model.encode(data.x, data.edge_index)
     
-    # Positive edges
     pos_pred = model.decode(z, edge_index).sigmoid()
     
-    # Negative edges
     neg_edge_index = negative_sampling(
         edge_index=data.edge_index,
         num_nodes=data.num_nodes,
@@ -165,7 +125,7 @@ def test_link_prediction(model, data, edge_index):
     )
     neg_pred = model.decode(z, neg_edge_index).sigmoid()
     
-    # Compute AUC
+    # compute AUC
     pred = torch.cat([pos_pred, neg_pred]).cpu().numpy()
     labels = torch.cat([
         torch.ones(pos_pred.size(0)),
@@ -176,17 +136,7 @@ def test_link_prediction(model, data, edge_index):
     return auc
 
 
-def save_model(model, optimizer, epoch, loss, filepath='model_checkpoint.pt'):
-    """
-    Save model checkpoint
-    
-    Args:
-        model: GNN model
-        optimizer: Optimizer
-        epoch: Current epoch
-        loss: Current loss
-        filepath: Path to save checkpoint
-    """
+def save_model(model, optimizer, epoch, loss, filepath='./saves/model_checkpoint.pt'):
     checkpoint = {
         'epoch': epoch,
         'model_state_dict': model.state_dict(),
@@ -200,32 +150,22 @@ def save_model(model, optimizer, epoch, loss, filepath='model_checkpoint.pt'):
         }
     }
     torch.save(checkpoint, filepath)
-    print(f"Model saved to {filepath}")
 
 
-def load_model(filepath='model_checkpoint.pt', device='cpu'):
-    """
-    Load model checkpoint
-    
-    Args:
-        filepath: Path to checkpoint
-        device: Device to load model on
-        
-    Returns:
-        model, optimizer, epoch, loss
-    """
+def load_model(filepath='./saves/model_checkpoint.pt', device='cpu'):
+
     checkpoint = torch.load(filepath, map_location=device)
     
-    # Recreate model
+    # recreate model
     config = checkpoint['model_config']
     if config['type'] == 'SimpleGCN':
-        model = SimpleGCN(
+        model = GCNsimple(
             config['input_dim'],
             config['hidden_dim'],
             config['output_dim']
         )
     elif config['type'] == 'SimpleGAT':
-        model = SimpleGAT(
+        model = GATsimple(
             config['input_dim'],
             config['hidden_dim'],
             config['output_dim']
@@ -234,7 +174,6 @@ def load_model(filepath='model_checkpoint.pt', device='cpu'):
     model.load_state_dict(checkpoint['model_state_dict'])
     model.to(device)
     
-    # Recreate optimizer
     optimizer = torch.optim.Adam(model.parameters(), lr=0.01)
     optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
     
@@ -248,35 +187,14 @@ def load_model(filepath='model_checkpoint.pt', device='cpu'):
 
 
 def create_node_embeddings(model, data):
-    """
-    Generate embeddings for all nodes
-    
-    Args:
-        data: PyTorch Geometric Data object
-        model: Trained GNN model
-    
-    Returns:
-        Node embeddings tensor
-    """
     model.eval()
     with torch.no_grad():
         embeddings = model.encode(data.x, data.edge_index)
     return embeddings
 
-
+# using cosine similarity, finds most similar nodes
+# returns a list of (node, similarity) tuples
 def find_similar_nodes(node_name, embeddings, mappings, top_k=5):
-    """
-    Find most similar nodes using cosine similarity
-    
-    Args:
-        node_name: Name of the query node
-        embeddings: Node embedding matrix
-        mappings: Dict with node mappings
-        top_k: Number of similar nodes to return
-    
-    Returns:
-        List of (node_name, similarity_score) tuples
-    """
     node_to_idx = mappings['node_to_idx']
     idx_to_node = mappings['idx_to_node']
     
@@ -284,18 +202,16 @@ def find_similar_nodes(node_name, embeddings, mappings, top_k=5):
         print(f"Node '{node_name}' not found in graph")
         return []
     
-    # Get query node embedding
     query_idx = node_to_idx[node_name]
     query_emb = embeddings[query_idx]
     
-    # Compute cosine similarity with all nodes
     similarities = F.cosine_similarity(query_emb.unsqueeze(0), embeddings)
     
-    # Get top-k most similar
-    top_scores, top_indices = similarities.topk(top_k + 1)  # +1 to exclude self
+    # get top-k most similar
+    top_scores, top_indices = similarities.topk(top_k + 1)      # +1 to exclude self
     
     results = []
-    for score, idx in zip(top_scores[1:], top_indices[1:]):  # Skip self
+    for score, idx in zip(top_scores[1:], top_indices[1:]):     # skip self
         results.append((idx_to_node[idx.item()], score.item()))
     
     return results

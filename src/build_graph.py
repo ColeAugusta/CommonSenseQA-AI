@@ -88,13 +88,13 @@ def build_pyg_graph(nodes: List[str],
 
 # pyG graph and mappings have to be saved separately
 
-def save_graph(data: Data, filepath: str = 'graph.pt'):
+def save_graph(data: Data, filepath: str = './saves/graph.pt'):
     torch.save(data, filepath)
     print(f"Graph saved to {filepath}")
 
 
 def save_mappings(node_mapping: Dict, relation_mapping: Dict, 
-                  filepath: str = 'mappings.pkl'):
+                  filepath: str = './saves/mappings.pkl'):
     mappings = {
         **node_mapping,
         **relation_mapping
@@ -106,9 +106,9 @@ def save_mappings(node_mapping: Dict, relation_mapping: Dict,
     print(f"Mappings saved to {filepath}")
 
 
-def load_graph(filepath: str = 'graph.pt') -> Data:
+def load_graph(filepath: str = './saves/graph.pt') -> Data:
     return torch.load(filepath)
 
-def load_mappings(filepath: str = 'mappings.pkl') -> Dict:
+def load_mappings(filepath: str = './saves/mappings.pkl') -> Dict:
     with open(filepath, 'rb') as f:
         return pickle.load(f)
