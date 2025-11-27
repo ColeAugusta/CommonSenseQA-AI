@@ -1,0 +1,83 @@
+# 🧠 Semantic Profile: 'tool' (EN)
+
+**Node:** `http://conceptnet.io/c/en/tool` → **tool**
+
+## IsA
+
+- **tool** IsA → *object* `[5.292]`
+- **tool** IsA → *band* `[1.000]`
+- **tool** IsA → *item* `[1.000]`
+- *saw* IsA → **tool** `[10.583]`
+- *axe* IsA → **tool** `[4.899]`
+- *knife* IsA → **tool** `[3.464]`
+- *stethoscope* IsA → **tool** `[2.828]`
+- *comb* IsA → **tool** `[2.000]`
+- *level* IsA → **tool** `[2.000]`
+- *lighter* IsA → **tool** `[2.000]`
+
+## RelatedTo
+
+- **tool** RelatedTo → *implement* `[0.599]`
+- **tool** RelatedTo → *hammer* `[0.487]`
+- **tool** RelatedTo → *instrument* `[0.396]`
+- **tool** RelatedTo → *band* `[0.314]`
+- **tool** RelatedTo → *useful* `[0.308]`
+- **tool** RelatedTo → *useful implement* `[0.308]`
+- **tool** RelatedTo → *repair* `[0.293]`
+- *hammer* RelatedTo → **tool** `[3.104]`
+- *bat* RelatedTo → **tool** `[2.122]`
+- *finger tight* RelatedTo → **tool** `[2.000]`
+- *toolbox* RelatedTo → **tool** `[2.000]`
+- *drill* RelatedTo → **tool** `[1.947]`
+- *rake* RelatedTo → **tool** `[1.927]`
+- *pliers* RelatedTo → **tool** `[1.759]`
+
+## PartOf
+
+- *nail* PartOf → **tool** `[1.000]`
+
+## HasA
+
+*No results*
+
+## UsedFor
+
+- **tool** UsedFor → *building things* `[4.472]`
+- **tool** UsedFor → *fixing things* `[3.464]`
+- **tool** UsedFor → *making things* `[2.828]`
+- **tool** UsedFor → *building* `[2.000]`
+- **tool** UsedFor → *fix things* `[2.000]`
+- **tool** UsedFor → *accomplishing purpose* `[1.000]`
+- **tool** UsedFor → *added power* `[1.000]`
+
+## CapableOf
+
+- **tool** CapableOf → *application or program* `[1.000]`
+- **tool** CapableOf → *eat with* `[1.000]`
+- **tool** CapableOf → *help person* `[1.000]`
+
+## Synonym
+
+- **tool** Synonym → *tool* `[0.500]`
+
+## Antonym
+
+*No results*
+
+## AtLocation
+
+- **tool** AtLocation → *garage* `[5.292]`
+- **tool** AtLocation → *repair shop* `[3.464]`
+- **tool** AtLocation → *tool box* `[2.000]`
+- **tool** AtLocation → *basement* `[1.000]`
+- **tool** AtLocation → *carpenter's belt* `[1.000]`
+- **tool** AtLocation → *hardware store* `[1.000]`
+- **tool** AtLocation → *street* `[1.000]`
+
+## HasProperty
+
+- **tool** HasProperty → *useful for tasks* `[1.000]`
+- *hammer* HasProperty → **tool** `[1.000]`
+
+---
+**Total relations:** 45

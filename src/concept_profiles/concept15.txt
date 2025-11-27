@@ -1,0 +1,105 @@
+# 🧠 Semantic Profile: 'animal' (EN)
+
+**Node:** `http://conceptnet.io/c/en/animal` → **animal**
+
+## IsA
+
+- **animal** IsA → *living creature* `[1.000]`
+- **animal** IsA → *organism* `[1.000]`
+- **animal** IsA → *preditor* `[1.000]`
+- **animal** IsA → *film* `[0.500]`
+- *lion* IsA → **animal** `[7.211]`
+- *fish* IsA → **animal** `[4.472]`
+- *dolphin* IsA → **animal** `[4.000]`
+- *fox* IsA → **animal** `[4.000]`
+- *pet* IsA → **animal** `[4.000]`
+- *deer* IsA → **animal** `[2.828]`
+- *farm animal* IsA → **animal** `[2.828]`
+
+## RelatedTo
+
+- **animal** RelatedTo → *living* `[4.437]`
+- **animal** RelatedTo → *creature* `[4.404]`
+- **animal** RelatedTo → *dog* `[3.129]`
+- **animal** RelatedTo → *cat* `[2.571]`
+- **animal** RelatedTo → *dog cat* `[2.044]`
+- **animal** RelatedTo → *zoo* `[2.029]`
+- **animal** RelatedTo → *living thing* `[2.023]`
+- *squirrel* RelatedTo → **animal** `[12.835]`
+- *sheep* RelatedTo → **animal** `[12.406]`
+- *horse* RelatedTo → **animal** `[11.754]`
+- *bear* RelatedTo → **animal** `[10.500]`
+- *dog* RelatedTo → **animal** `[9.410]`
+- *fish* RelatedTo → **animal** `[8.938]`
+- *cow* RelatedTo → **animal** `[8.614]`
+
+## PartOf
+
+- **animal** PartOf → *ecology* `[2.000]`
+- **animal** PartOf → *ecosystem* `[1.000]`
+- **animal** PartOf → *nature* `[1.000]`
+- *head* PartOf → **animal** `[3.464]`
+
+## HasA
+
+- **animal** HasA → *meat* `[1.000]`
+
+## UsedFor
+
+- **animal** UsedFor → *petting* `[2.828]`
+- **animal** UsedFor → *food* `[2.000]`
+- **animal** UsedFor → *killing for food* `[2.000]`
+- **animal** UsedFor → *pet* `[2.000]`
+- **animal** UsedFor → *beastiality* `[1.000]`
+- **animal** UsedFor → *carrying cargo* `[1.000]`
+- **animal** UsedFor → *companionship* `[1.000]`
+
+## CapableOf
+
+- **animal** CapableOf → *move itself about* `[4.000]`
+- **animal** CapableOf → *eating* `[3.464]`
+- **animal** CapableOf → *feel pain* `[2.000]`
+- **animal** CapableOf → *live* `[2.000]`
+- **animal** CapableOf → *live long* `[2.000]`
+- **animal** CapableOf → *die in laboratory* `[1.000]`
+- **animal** CapableOf → *fight for life* `[1.000]`
+
+## Synonym
+
+- **animal** Synonym → *animal* `[1.000]`
+- *animal* Synonym → **animal** `[2.000]`
+
+## Antonym
+
+- **animal** Antonym → *vegetable* `[1.268]`
+- **animal** Antonym → *mineral* `[1.162]`
+- **animal** Antonym → *plant* `[0.979]`
+- **animal** Antonym → *human* `[0.778]`
+- **animal** Antonym → *vegetable mineral* `[0.432]`
+- **animal** Antonym → *mineral vegetable* `[0.362]`
+- **animal** Antonym → *man* `[0.343]`
+- *plant* Antonym → **animal** `[1.599]`
+
+## AtLocation
+
+- **animal** AtLocation → *zoo* `[7.483]`
+- **animal** AtLocation → *park* `[2.828]`
+- **animal** AtLocation → *pet store* `[2.000]`
+- **animal** AtLocation → *cafe* `[1.000]`
+- **animal** AtLocation → *detroit zoo* `[1.000]`
+- **animal** AtLocation → *every breathing thing* `[1.000]`
+- **animal** AtLocation → *north america* `[1.000]`
+- *bone* AtLocation → **animal** `[2.828]`
+- *heart* AtLocation → **animal** `[2.000]`
+- *muscle* AtLocation → **animal** `[2.000]`
+- *nerve* AtLocation → **animal** `[2.000]`
+- *artery* AtLocation → **animal** `[1.000]`
+- *chest* AtLocation → **animal** `[1.000]`
+- *liver* AtLocation → **animal** `[1.000]`
+
+## HasProperty
+
+- **animal** HasProperty → *alive* `[4.000]`
+
+---
+**Total relations:** 69

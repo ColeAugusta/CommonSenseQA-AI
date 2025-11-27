@@ -1,0 +1,108 @@
+# 🧠 Semantic Profile: 'house' (EN)
+
+**Node:** `http://conceptnet.io/c/en/house` → **house**
+
+## IsA
+
+- **house** IsA → *place and thing* `[3.464]`
+- **house** IsA → *shelter* `[2.828]`
+- **house** IsA → *thing* `[2.000]`
+- **house** IsA → *tv show* `[2.000]`
+- **house** IsA → *construction where people live* `[1.000]`
+- **house** IsA → *different word for home* `[1.000]`
+- **house** IsA → *good investment* `[1.000]`
+- *mansion* IsA → **house** `[4.000]`
+- *cottage* IsA → **house** `[3.464]`
+- *igloo* IsA → **house** `[2.000]`
+
+## RelatedTo
+
+- **house** RelatedTo → *building* `[6.724]`
+- **house** RelatedTo → *home* `[6.144]`
+- **house** RelatedTo → *dwelling* `[4.788]`
+- **house** RelatedTo → *living* `[4.601]`
+- **house** RelatedTo → *roof* `[4.170]`
+- **house** RelatedTo → *live* `[3.099]`
+- **house** RelatedTo → *place* `[3.088]`
+- *home* RelatedTo → **house** `[8.984]`
+- *room* RelatedTo → **house** `[8.982]`
+- *nest* RelatedTo → **house** `[7.050]`
+- *door* RelatedTo → **house** `[7.036]`
+- *window* RelatedTo → **house** `[5.791]`
+- *servant* RelatedTo → **house** `[4.880]`
+- *paint* RelatedTo → **house** `[4.335]`
+
+## PartOf
+
+- **house** PartOf → *assets* `[1.000]`
+- **house** PartOf → *street* `[1.000]`
+- *living room* PartOf → **house** `[3.464]`
+- *wall* PartOf → **house** `[3.464]`
+- *garden* PartOf → **house** `[2.828]`
+- *attic* PartOf → **house** `[2.000]`
+- *foyer* PartOf → **house** `[2.000]`
+- *nail* PartOf → **house** `[2.000]`
+
+## HasA
+
+- **house** HasA → *door* `[4.472]`
+- **house** HasA → *rooms* `[4.472]`
+- **house** HasA → *yard* `[3.464]`
+- **house** HasA → *basement* `[2.828]`
+- **house** HasA → *bathroom* `[2.828]`
+- **house** HasA → *doors* `[2.828]`
+- **house** HasA → *kitchen* `[2.828]`
+
+## UsedFor
+
+- **house** UsedFor → *shelter* `[3.464]`
+- **house** UsedFor → *protection from elements* `[2.828]`
+- **house** UsedFor → *residency* `[2.000]`
+- **house** UsedFor → *comfort* `[1.000]`
+- **house** UsedFor → *decorating* `[1.000]`
+- **house** UsedFor → *dolls* `[1.000]`
+- **house** UsedFor → *entertaining* `[1.000]`
+
+## CapableOf
+
+- **house** CapableOf → *burn down* `[2.000]`
+- **house** CapableOf → *cost lot* `[2.000]`
+- **house** CapableOf → *weather storm* `[2.000]`
+- **house** CapableOf → *belong to* `[1.000]`
+- **house** CapableOf → *cost lot of money* `[1.000]`
+- **house** CapableOf → *cost many years wages* `[1.000]`
+- **house** CapableOf → *face south* `[1.000]`
+
+## Synonym
+
+- **house** Synonym → *house* `[1.000]`
+- *maison* Synonym → **house** `[2.000]`
+
+## Antonym
+
+- **house** Antonym → *apartment* `[0.353]`
+- **house** Antonym → *homeless* `[0.186]`
+
+## AtLocation
+
+- **house** AtLocation → *city* `[2.000]`
+- **house** AtLocation → *residential area* `[2.000]`
+- **house** AtLocation → *street* `[2.000]`
+- **house** AtLocation → *suburbs* `[2.000]`
+- **house** AtLocation → *surface of earth* `[2.000]`
+- **house** AtLocation → *bedroom* `[1.000]`
+- **house** AtLocation → *newspaper* `[1.000]`
+- *computer* AtLocation → **house** `[8.000]`
+- *carpet* AtLocation → **house** `[7.746]`
+- *bedroom* AtLocation → **house** `[6.633]`
+- *family* AtLocation → **house** `[6.325]`
+- *furniture* AtLocation → **house** `[6.325]`
+- *windows* AtLocation → **house** `[6.000]`
+- *bathroom* AtLocation → **house** `[5.657]`
+
+## HasProperty
+
+- **house** HasProperty → *susceptible to fire* `[1.000]`
+
+---
+**Total relations:** 72

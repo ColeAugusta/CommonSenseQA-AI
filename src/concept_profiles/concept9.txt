@@ -1,0 +1,105 @@
+# 🧠 Semantic Profile: 'fish' (EN)
+
+**Node:** `http://conceptnet.io/c/en/fish` → **fish**
+
+## IsA
+
+- **fish** IsA → *animal* `[4.472]`
+- **fish** IsA → *animal* `[1.000]`
+- **fish** IsA → *animals* `[1.000]`
+- **fish** IsA → *aquatic animal* `[1.000]`
+- **fish** IsA → *caught then sometimes eaten* `[1.000]`
+- **fish** IsA → *common kind of food* `[1.000]`
+- **fish** IsA → *form of life* `[1.000]`
+- *bass* IsA → **fish** `[8.485]`
+- *trout* IsA → **fish** `[7.746]`
+- *crappie* IsA → **fish** `[5.657]`
+- *pike* IsA → **fish** `[4.472]`
+- *find underwater* IsA → **fish** `[4.000]`
+- *tuna and catfish* IsA → **fish** `[3.464]`
+- *flounder* IsA → **fish** `[2.828]`
+
+## RelatedTo
+
+- **fish** RelatedTo → *animal* `[8.938]`
+- **fish** RelatedTo → *water* `[6.764]`
+- **fish** RelatedTo → *sea* `[6.056]`
+- **fish** RelatedTo → *creature* `[4.590]`
+- **fish** RelatedTo → *ocean* `[4.381]`
+- **fish** RelatedTo → *swimming* `[4.099]`
+- **fish** RelatedTo → *gills* `[3.838]`
+- *scale* RelatedTo → **fish** `[3.174]`
+- *trout* RelatedTo → **fish** `[2.700]`
+- *carp* RelatedTo → **fish** `[2.372]`
+- *bass* RelatedTo → **fish** `[2.061]`
+- *minnow* RelatedTo → **fish** `[2.025]`
+- *pisces* RelatedTo → **fish** `[2.000]`
+- *swim* RelatedTo → **fish** `[1.814]`
+
+## PartOf
+
+*No results*
+
+## HasA
+
+- **fish** HasA → *gills* `[4.000]`
+- **fish** HasA → *bones* `[3.464]`
+- **fish** HasA → *fins* `[2.000]`
+- **fish** HasA → *distinctive fishy smell* `[1.000]`
+- **fish** HasA → *fantastic spatial memory* `[1.000]`
+- **fish** HasA → *fin* `[1.000]`
+- **fish** HasA → *gills which allow breathing water* `[1.000]`
+- *oceans* HasA → **fish** `[1.000]`
+
+## UsedFor
+
+- *ocean* UsedFor → **fish** `[2.828]`
+- *pond* UsedFor → **fish** `[2.000]`
+
+## CapableOf
+
+- **fish** CapableOf → *live underwater* `[4.000]`
+- **fish** CapableOf → *pets* `[2.828]`
+- **fish** CapableOf → *live in lakes* `[2.000]`
+- **fish** CapableOf → *swim* `[2.000]`
+- **fish** CapableOf → *analyse social status of others* `[1.000]`
+- **fish** CapableOf → *attempt to fly* `[1.000]`
+- **fish** CapableOf → *bicycle well* `[1.000]`
+- *fish tank* CapableOf → **fish** `[1.000]`
+- *fishermen* CapableOf → **fish** `[1.000]`
+
+## Synonym
+
+- **fish** Synonym → *fish* `[0.500]`
+
+## Antonym
+
+*No results*
+
+## AtLocation
+
+- **fish** AtLocation → *water* `[11.489]`
+- **fish** AtLocation → *ocean* `[6.633]`
+- **fish** AtLocation → *aquarium* `[5.657]`
+- **fish** AtLocation → *lake* `[4.472]`
+- **fish** AtLocation → *river* `[4.472]`
+- **fish** AtLocation → *pond* `[4.000]`
+- **fish** AtLocation → *boat* `[2.828]`
+- *scales* AtLocation → **fish** `[3.464]`
+- *bone* AtLocation → **fish** `[2.000]`
+- *blowfish* AtLocation → **fish** `[1.000]`
+- *bones* AtLocation → **fish** `[1.000]`
+- *scale* AtLocation → **fish** `[1.000]`
+
+## HasProperty
+
+- **fish** HasProperty → *striped* `[2.828]`
+- **fish** HasProperty → *eaten raw* `[2.000]`
+- **fish** HasProperty → *colorful* `[1.000]`
+- **fish** HasProperty → *diverse* `[1.000]`
+- **fish** HasProperty → *eaten cooked* `[1.000]`
+- **fish** HasProperty → *healthy to eat* `[1.000]`
+- **fish** HasProperty → *laughing at us* `[1.000]`
+
+---
+**Total relations:** 67

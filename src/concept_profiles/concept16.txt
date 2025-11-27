@@ -1,0 +1,95 @@
+# 🧠 Semantic Profile: 'plant' (EN)
+
+**Node:** `http://conceptnet.io/c/en/plant` → **plant**
+
+## IsA
+
+- **plant** IsA → *organism* `[2.828]`
+- **plant** IsA → *book* `[0.500]`
+- *cabbage* IsA → **plant** `[4.000]`
+- *cotton* IsA → **plant** `[3.464]`
+- *poison ivy* IsA → **plant** `[3.464]`
+- *colorado blue spruce* IsA → **plant** `[2.828]`
+- *grass* IsA → **plant** `[2.828]`
+- *peppermint* IsA → **plant** `[2.828]`
+- *pine* IsA → **plant** `[2.828]`
+
+## RelatedTo
+
+- **plant** RelatedTo → *green* `[6.531]`
+- **plant** RelatedTo → *leaves* `[5.413]`
+- **plant** RelatedTo → *flower* `[4.273]`
+- **plant** RelatedTo → *growing* `[4.164]`
+- **plant** RelatedTo → *tree* `[3.782]`
+- **plant** RelatedTo → *flowers* `[3.130]`
+- **plant** RelatedTo → *vegetation* `[3.050]`
+- *seed* RelatedTo → **plant** `[8.777]`
+- *tree* RelatedTo → **plant** `[8.203]`
+- *flower* RelatedTo → **plant** `[7.680]`
+- *cotton* RelatedTo → **plant** `[6.472]`
+- *grass* RelatedTo → **plant** `[4.923]`
+- *crop* RelatedTo → **plant** `[4.036]`
+- *garden* RelatedTo → **plant** `[3.704]`
+
+## PartOf
+
+- **plant** PartOf → *ecosystem* `[1.000]`
+- **plant** PartOf → *garden* `[1.000]`
+- **plant** PartOf → *nature* `[1.000]`
+- *transport system* PartOf → **plant** `[2.000]`
+- *cotton fibrous substance* PartOf → **plant** `[1.000]`
+- *leaf* PartOf → **plant** `[1.000]`
+- *potato* PartOf → **plant** `[1.000]`
+- *root* PartOf → **plant** `[1.000]`
+- *stem* PartOf → **plant** `[1.000]`
+- *suture* PartOf → **plant** `[1.000]`
+
+## HasA
+
+*No results*
+
+## UsedFor
+
+*No results*
+
+## CapableOf
+
+- **plant** CapableOf → *grow in garden* `[4.899]`
+- **plant** CapableOf → *flower in spring* `[2.828]`
+- **plant** CapableOf → *bloom* `[2.000]`
+- **plant** CapableOf → *suffering dehydration* `[2.000]`
+- **plant** CapableOf → *bottle drinks* `[1.000]`
+- **plant** CapableOf → *flower in spring time* `[1.000]`
+- **plant** CapableOf → *flower petals* `[1.000]`
+
+## Synonym
+
+- **plant** Synonym → *plant* `[1.000]`
+
+## Antonym
+
+- **plant** Antonym → *animal* `[1.599]`
+- **plant** Antonym → *animal mineral* `[0.316]`
+- **plant** Antonym → *mineral* `[0.316]`
+
+## AtLocation
+
+- **plant** AtLocation → *windowsill* `[5.292]`
+- **plant** AtLocation → *pot* `[3.464]`
+- **plant** AtLocation → *dirt* `[1.000]`
+- **plant** AtLocation → *flower pot* `[1.000]`
+- **plant** AtLocation → *garden* `[1.000]`
+- **plant** AtLocation → *house* `[1.000]`
+- **plant** AtLocation → *outside* `[1.000]`
+- *lizard* AtLocation → **plant** `[1.000]`
+- *phlloem* AtLocation → **plant** `[1.000]`
+- *pores at end of phloem cell* AtLocation → **plant** `[1.000]`
+- *xylem* AtLocation → **plant** `[1.000]`
+
+## HasProperty
+
+- **plant** HasProperty → *alive* `[2.828]`
+- **plant** HasProperty → *growing taller* `[1.000]`
+
+---
+**Total relations:** 57

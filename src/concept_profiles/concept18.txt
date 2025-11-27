@@ -1,0 +1,85 @@
+# 🧠 Semantic Profile: 'machine' (EN)
+
+**Node:** `http://conceptnet.io/c/en/machine` → **machine**
+
+## IsA
+
+- **machine** IsA → *complex tool* `[2.000]`
+- **machine** IsA → *artifact* `[1.000]`
+- **machine** IsA → *man made object* `[1.000]`
+- **machine** IsA → *man man device* `[1.000]`
+- *refrigerator* IsA → **machine** `[3.464]`
+- *plane* IsA → **machine** `[2.828]`
+- *pump* IsA → **machine** `[2.828]`
+- *rocket* IsA → **machine** `[2.828]`
+- *automaton* IsA → **machine** `[2.000]`
+- *bidet* IsA → **machine** `[2.000]`
+- *car* IsA → **machine** `[2.000]`
+
+## RelatedTo
+
+- **machine** RelatedTo → *mechanical* `[3.003]`
+- **machine** RelatedTo → *device* `[1.902]`
+- **machine** RelatedTo → *robot* `[1.091]`
+- *rube goldberg machine* RelatedTo → **machine** `[2.000]`
+- *take up* RelatedTo → **machine** `[2.000]`
+- *scale* RelatedTo → **machine** `[1.672]`
+- *motor* RelatedTo → **machine** `[1.483]`
+- *copy* RelatedTo → **machine** `[1.406]`
+- *آلة* RelatedTo → **machine** `[1.000]`
+- *طهاية* RelatedTo → **machine** `[1.000]`
+
+## PartOf
+
+- *ball bearing* PartOf → **machine** `[1.000]`
+
+## HasA
+
+*No results*
+
+## UsedFor
+
+- **machine** UsedFor → *work* `[3.464]`
+- **machine** UsedFor → *crush ice* `[2.828]`
+- **machine** UsedFor → *exercise muscles* `[2.828]`
+- **machine** UsedFor → *manufacture* `[2.828]`
+- **machine** UsedFor → *answer phone* `[2.000]`
+- **machine** UsedFor → *apply coatings* `[2.000]`
+- **machine** UsedFor → *bake bread* `[2.000]`
+
+## CapableOf
+
+- **machine** CapableOf → *bottle soda* `[2.000]`
+- **machine** CapableOf → *construct* `[2.000]`
+- **machine** CapableOf → *dispense* `[2.000]`
+- **machine** CapableOf → *sort letters* `[2.000]`
+- **machine** CapableOf → *vend* `[2.000]`
+- **machine** CapableOf → *wash dishes* `[2.000]`
+- **machine** CapableOf → *ball cotton* `[1.000]`
+
+## Synonym
+
+*No results*
+
+## Antonym
+
+*No results*
+
+## AtLocation
+
+- **machine** AtLocation → *barn* `[2.000]`
+- **machine** AtLocation → *house* `[2.000]`
+- **machine** AtLocation → *industrial area* `[2.000]`
+- **machine** AtLocation → *laboratory* `[2.000]`
+- **machine** AtLocation → *museum* `[2.000]`
+- **machine** AtLocation → *office* `[2.000]`
+- **machine** AtLocation → *assembly line* `[1.000]`
+- *ball bearing* AtLocation → **machine** `[2.000]`
+
+## HasProperty
+
+- **machine** HasProperty → *mechanical* `[2.000]`
+- *computer* HasProperty → **machine** `[1.000]`
+
+---
+**Total relations:** 46

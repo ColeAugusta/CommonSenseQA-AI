@@ -1,0 +1,99 @@
+# 🧠 Semantic Profile: 'bird' (EN)
+
+**Node:** `http://conceptnet.io/c/en/bird` → **bird**
+
+## IsA
+
+- **bird** IsA → *animal* `[1.000]`
+- **bird** IsA → *dinosaur* `[1.000]`
+- **bird** IsA → *eagle* `[1.000]`
+- **bird** IsA → *feathered animal* `[1.000]`
+- *finch* IsA → **bird** `[6.633]`
+- *robin* IsA → **bird** `[6.325]`
+- *ostrich* IsA → **bird** `[6.000]`
+- *parakeet* IsA → **bird** `[5.657]`
+- *swan* IsA → **bird** `[5.292]`
+- *crow* IsA → **bird** `[4.472]`
+- *pheasant* IsA → **bird** `[4.472]`
+
+## RelatedTo
+
+- **bird** RelatedTo → *animal* `[8.332]`
+- **bird** RelatedTo → *flying* `[6.637]`
+- **bird** RelatedTo → *wings* `[4.836]`
+- **bird** RelatedTo → *flying animal* `[4.210]`
+- **bird** RelatedTo → *creature* `[3.745]`
+- **bird** RelatedTo → *feathers* `[3.743]`
+- **bird** RelatedTo → *feathered* `[3.516]`
+- *nest* RelatedTo → **bird** `[11.848]`
+- *chicken* RelatedTo → **bird** `[10.768]`
+- *duck* RelatedTo → **bird** `[7.788]`
+- *chick* RelatedTo → **bird** `[7.315]`
+- *canary* RelatedTo → **bird** `[6.718]`
+- *egg* RelatedTo → **bird** `[4.720]`
+- *owl* RelatedTo → **bird** `[4.243]`
+
+## PartOf
+
+- **bird** PartOf → *flock* `[1.000]`
+- *talon* PartOf → **bird** `[1.000]`
+- *wing* PartOf → **bird** `[1.000]`
+
+## HasA
+
+- **bird** HasA → *two legs* `[3.464]`
+- **bird** HasA → *two wings* `[2.828]`
+- **bird** HasA → *wings* `[2.828]`
+- **bird** HasA → *feathers* `[1.000]`
+
+## UsedFor
+
+- **bird** UsedFor → *watching* `[2.828]`
+- **bird** UsedFor → *laying eggs* `[2.000]`
+- **bird** UsedFor → *entertain yourself* `[1.000]`
+- **bird** UsedFor → *having for pet* `[1.000]`
+- **bird** UsedFor → *keep as pet* `[1.000]`
+- **bird** UsedFor → *keeping in zoo* `[1.000]`
+- **bird** UsedFor → *maintaining balanced ecosystem* `[1.000]`
+
+## CapableOf
+
+- **bird** CapableOf → *sing* `[6.633]`
+- **bird** CapableOf → *spread wings* `[3.464]`
+- **bird** CapableOf → *build nest* `[2.828]`
+- **bird** CapableOf → *chirp* `[2.828]`
+- **bird** CapableOf → *fly* `[2.828]`
+- **bird** CapableOf → *fly high* `[2.828]`
+- **bird** CapableOf → *pet* `[2.828]`
+
+## Synonym
+
+- **bird** Synonym → *bird* `[0.500]`
+- *fowl* Synonym → **bird** `[2.000]`
+
+## Antonym
+
+- **bird** Antonym → *human* `[0.182]`
+- **bird** Antonym → *fish* `[0.179]`
+
+## AtLocation
+
+- **bird** AtLocation → *tree* `[4.472]`
+- **bird** AtLocation → *nest* `[4.000]`
+- **bird** AtLocation → *sky* `[4.000]`
+- **bird** AtLocation → *cage* `[2.828]`
+- **bird** AtLocation → *forest* `[2.828]`
+- **bird** AtLocation → *roof* `[2.828]`
+- **bird** AtLocation → *air* `[2.000]`
+- *feather* AtLocation → **bird** `[5.292]`
+- *feather in* AtLocation → **bird** `[1.000]`
+- *wing* AtLocation → **bird** `[1.000]`
+
+## HasProperty
+
+- **bird** HasProperty → *flying fast* `[1.000]`
+- **bird** HasProperty → *mute* `[1.000]`
+- **bird** HasProperty → *rising early* `[1.000]`
+
+---
+**Total relations:** 63

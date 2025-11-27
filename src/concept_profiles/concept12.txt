@@ -1,0 +1,100 @@
+# 🧠 Semantic Profile: 'table' (EN)
+
+**Node:** `http://conceptnet.io/c/en/table` → **table**
+
+## IsA
+
+- **table** IsA → *platform* `[2.000]`
+- **table** IsA → *flat surface* `[1.000]`
+- **table** IsA → *horizontal surface* `[1.000]`
+- **table** IsA → *physical object* `[1.000]`
+- **table** IsA → *piece of furniture* `[1.000]`
+- **table** IsA → *plateau* `[1.000]`
+- **table** IsA → *raised platform* `[1.000]`
+- *desk* IsA → **table** `[2.828]`
+- *coffee table* IsA → **table** `[1.000]`
+- *dining table* IsA → **table** `[1.000]`
+- *dinner table* IsA → **table** `[1.000]`
+- *drop leaf table* IsA → **table** `[1.000]`
+- *end table* IsA → **table** `[1.000]`
+- *find inside* IsA → **table** `[1.000]`
+
+## RelatedTo
+
+- **table** RelatedTo → *furniture* `[6.983]`
+- **table** RelatedTo → *eating* `[5.845]`
+- **table** RelatedTo → *dining* `[4.740]`
+- **table** RelatedTo → *legs* `[4.388]`
+- **table** RelatedTo → *surface* `[4.157]`
+- **table** RelatedTo → *kitchen* `[3.772]`
+- **table** RelatedTo → *chairs* `[3.732]`
+- *desk* RelatedTo → **table** `[7.900]`
+- *plate* RelatedTo → **table** `[4.995]`
+- *napkin* RelatedTo → **table** `[4.820]`
+- *chair* RelatedTo → **table** `[4.235]`
+- *salt* RelatedTo → **table** `[1.986]`
+- *bed* RelatedTo → **table** `[1.917]`
+- *اتكأ* RelatedTo → **table** `[1.000]`
+
+## PartOf
+
+- *leg* PartOf → **table** `[4.472]`
+- *row* PartOf → **table** `[2.000]`
+- *column* PartOf → **table** `[1.000]`
+- *heading* PartOf → **table** `[1.000]`
+- *tabletop* PartOf → **table** `[1.000]`
+
+## HasA
+
+- **table** HasA → *legs* `[1.000]`
+- *dining room* HasA → **table** `[1.000]`
+- *doctor examination room* HasA → **table** `[1.000]`
+
+## UsedFor
+
+- **table** UsedFor → *putting things on* `[6.928]`
+- **table** UsedFor → *eat at* `[4.899]`
+- **table** UsedFor → *eating off of* `[4.899]`
+- **table** UsedFor → *read* `[2.828]`
+- **table** UsedFor → *working at* `[2.828]`
+- **table** UsedFor → *drawing on* `[2.000]`
+- **table** UsedFor → *holding things* `[2.000]`
+
+## CapableOf
+
+- **table** CapableOf → *double as desk* `[1.000]`
+- **table** CapableOf → *wooden furniture* `[1.000]`
+
+## Synonym
+
+- *table* Synonym → **table** `[2.000]`
+
+## Antonym
+
+- **table** Antonym → *chair* `[0.744]`
+- **table** Antonym → *chairs* `[0.283]`
+- **table** Antonym → *floor* `[0.204]`
+
+## AtLocation
+
+- **table** AtLocation → *kitchen* `[5.292]`
+- **table** AtLocation → *resturant* `[4.472]`
+- **table** AtLocation → *dining room* `[4.000]`
+- **table** AtLocation → *conference* `[2.828]`
+- **table** AtLocation → *apartment* `[2.000]`
+- **table** AtLocation → *corner* `[2.000]`
+- **table** AtLocation → *demonstration* `[2.000]`
+- *tablecloth* AtLocation → **table** `[8.000]`
+- *food* AtLocation → **table** `[7.211]`
+- *plate* AtLocation → **table** `[7.211]`
+- *floor* AtLocation → **table** `[6.928]`
+- *dog* AtLocation → **table** `[5.657]`
+- *computer* AtLocation → **table** `[4.899]`
+- *fork* AtLocation → **table** `[4.899]`
+
+## HasProperty
+
+- **table** HasProperty → *rigid* `[1.000]`
+
+---
+**Total relations:** 64

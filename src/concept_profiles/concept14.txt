@@ -1,0 +1,102 @@
+# 🧠 Semantic Profile: 'person' (EN)
+
+**Node:** `http://conceptnet.io/c/en/person` → **person**
+
+## IsA
+
+- **person** IsA → *individual* `[2.828]`
+- *slave* IsA → **person** `[6.000]`
+- *alien* IsA → **person** `[3.464]`
+- *mad scientist* IsA → **person** `[2.828]`
+- *soldier* IsA → **person** `[2.828]`
+- *alcoholic* IsA → **person** `[2.000]`
+- *banker* IsA → **person** `[2.000]`
+- *boss* IsA → **person** `[2.000]`
+
+## RelatedTo
+
+- **person** RelatedTo → *human* `[6.998]`
+- **person** RelatedTo → *people* `[5.699]`
+- **person** RelatedTo → *individual* `[5.039]`
+- **person** RelatedTo → *man* `[3.758]`
+- **person** RelatedTo → *one people* `[3.007]`
+- **person** RelatedTo → *being* `[2.884]`
+- **person** RelatedTo → *single* `[2.785]`
+- *doll* RelatedTo → **person** `[6.601]`
+- *character* RelatedTo → **person** `[6.402]`
+- *statue* RelatedTo → **person** `[5.725]`
+- *servant* RelatedTo → **person** `[5.267]`
+- *body* RelatedTo → **person** `[5.181]`
+- *farmer* RelatedTo → **person** `[4.851]`
+- *child* RelatedTo → **person** `[4.758]`
+
+## PartOf
+
+- **person** PartOf → *society* `[5.292]`
+- *brain* PartOf → **person** `[2.828]`
+- *chest* PartOf → **person** `[2.000]`
+- *left ear* PartOf → **person** `[2.000]`
+- *left hand* PartOf → **person** `[2.000]`
+- *left leg* PartOf → **person** `[2.000]`
+- *right ear* PartOf → **person** `[2.000]`
+- *right hand* PartOf → **person** `[2.000]`
+
+## HasA
+
+- **person** HasA → *one head* `[4.000]`
+- **person** HasA → *name* `[2.828]`
+- **person** HasA → *belly button* `[2.000]`
+- **person** HasA → *do dishes* `[2.000]`
+- **person** HasA → *four grandparents* `[2.000]`
+- **person** HasA → *immune system* `[2.000]`
+- **person** HasA → *two opposable thumbs* `[2.000]`
+- *people* HasA → **person** `[1.000]`
+
+## UsedFor
+
+- **person** UsedFor → *help* `[2.828]`
+- **person** UsedFor → *loving* `[2.000]`
+
+## CapableOf
+
+- **person** CapableOf → *cross street* `[6.928]`
+- **person** CapableOf → *thank another person* `[6.633]`
+- **person** CapableOf → *voice opinion* `[6.633]`
+- **person** CapableOf → *wind clock* `[6.633]`
+- **person** CapableOf → *board plane* `[5.292]`
+- **person** CapableOf → *laugh at joke* `[5.292]`
+- **person** CapableOf → *water plant* `[5.292]`
+
+## Synonym
+
+- *personne* Synonym → **person** `[2.000]`
+
+## Antonym
+
+- *crowd* Antonym → **person** `[1.327]`
+
+## AtLocation
+
+- **person** AtLocation → *building* `[2.000]`
+- **person** AtLocation → *bus stop* `[2.000]`
+- **person** AtLocation → *garage* `[2.000]`
+- **person** AtLocation → *hospital* `[2.000]`
+- **person** AtLocation → *quandry* `[2.000]`
+- **person** AtLocation → *conference* `[1.000]`
+- **person** AtLocation → *corner of two streets* `[1.000]`
+- *brain* AtLocation → **person** `[3.464]`
+- *blood* AtLocation → **person** `[2.000]`
+- *bones* AtLocation → **person** `[2.000]`
+- *heart* AtLocation → **person** `[2.000]`
+- *soul* AtLocation → **person** `[2.000]`
+- *characteristic* AtLocation → **person** `[1.000]`
+- *clothing* AtLocation → **person** `[1.000]`
+
+## HasProperty
+
+- **person** HasProperty → *guilty of crime* `[2.828]`
+- **person** HasProperty → *self interested* `[2.000]`
+- **person** HasProperty → *selfish* `[2.000]`
+
+---
+**Total relations:** 66

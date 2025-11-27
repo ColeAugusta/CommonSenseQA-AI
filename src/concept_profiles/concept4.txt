@@ -1,0 +1,117 @@
+# 🧠 Semantic Profile: 'water' (EN)
+
+**Node:** `http://conceptnet.io/c/en/water` → **water**
+
+## IsA
+
+- **water** IsA → *reflective surface* `[6.000]`
+- **water** IsA → *life* `[3.464]`
+- **water** IsA → *fluid* `[2.828]`
+- **water** IsA → *heavier than air* `[2.828]`
+- **water** IsA → *chemical* `[2.000]`
+- **water** IsA → *molecule* `[2.000]`
+- **water** IsA → *not air* `[2.000]`
+- *rain* IsA → **water** `[9.381]`
+- *snow* IsA → **water** `[2.000]`
+- *deuterated water* IsA → **water** `[1.000]`
+- *heavy water* IsA → **water** `[1.000]`
+- *ice* IsA → **water** `[1.000]`
+- *light water* IsA → **water** `[1.000]`
+- *salt water* IsA → **water** `[1.000]`
+
+## RelatedTo
+
+- **water** RelatedTo → *liquid* `[7.317]`
+- **water** RelatedTo → *drink* `[3.757]`
+- **water** RelatedTo → *clear* `[3.635]`
+- **water** RelatedTo → *hydrogen* `[3.366]`
+- **water** RelatedTo → *ocean* `[3.277]`
+- **water** RelatedTo → *wet* `[2.986]`
+- **water** RelatedTo → *drinking* `[2.654]`
+- *river* RelatedTo → **water** `[10.326]`
+- *steam* RelatedTo → **water** `[9.872]`
+- *swim* RelatedTo → **water** `[9.070]`
+- *boat* RelatedTo → **water** `[7.801]`
+- *drop* RelatedTo → **water** `[7.352]`
+- *rain* RelatedTo → **water** `[7.283]`
+- *sea* RelatedTo → **water** `[7.055]`
+
+## PartOf
+
+- *hydrogen* PartOf → **water** `[3.464]`
+
+## HasA
+
+- **water** HasA → *no taste* `[2.000]`
+- *bay* HasA → **water** `[3.464]`
+- *milk* HasA → **water** `[2.828]`
+- *aquarium* HasA → **water** `[2.000]`
+- *lake* HasA → **water** `[2.000]`
+- *ocean* HasA → **water** `[2.000]`
+- *pond* HasA → **water** `[2.000]`
+- *pool* HasA → **water** `[2.000]`
+
+## UsedFor
+
+- **water** UsedFor → *drink* `[8.246]`
+- **water** UsedFor → *quenching thirst* `[4.472]`
+- **water** UsedFor → *drinking* `[4.000]`
+- **water** UsedFor → *bathing* `[3.464]`
+- **water** UsedFor → *cleaning* `[3.464]`
+- **water** UsedFor → *extinguish most fires* `[3.464]`
+- **water** UsedFor → *put out fire* `[2.828]`
+
+## CapableOf
+
+- **water** CapableOf → *freeze* `[4.899]`
+- **water** CapableOf → *thin paint* `[4.472]`
+- **water** CapableOf → *flow* `[4.000]`
+- **water** CapableOf → *fill bucket* `[3.464]`
+- **water** CapableOf → *extinguish fire* `[2.828]`
+- **water** CapableOf → *fill glass* `[2.828]`
+- **water** CapableOf → *act as reflector* `[2.000]`
+
+## Synonym
+
+- *eau* Synonym → **water** `[2.000]`
+
+## Antonym
+
+- *fire* Antonym → **water** `[1.303]`
+
+## AtLocation
+
+- **water** AtLocation → *lake* `[9.798]`
+- **water** AtLocation → *river* `[7.483]`
+- **water** AtLocation → *pool* `[7.211]`
+- **water** AtLocation → *waterfall* `[6.633]`
+- **water** AtLocation → *surface of earth* `[4.899]`
+- **water** AtLocation → *ocean* `[4.472]`
+- **water** AtLocation → *sink* `[4.472]`
+- *fish* AtLocation → **water** `[11.489]`
+- *boat* AtLocation → **water** `[8.246]`
+- *submarines* AtLocation → **water** `[6.000]`
+- *plankton* AtLocation → **water** `[4.899]`
+- *coral reef* AtLocation → **water** `[4.472]`
+- *seaweed* AtLocation → **water** `[4.000]`
+- *anemone* AtLocation → **water** `[3.464]`
+
+## HasProperty
+
+- **water** HasProperty → *liquid* `[6.325]`
+- **water** HasProperty → *essential to all life* `[5.657]`
+- **water** HasProperty → *transparent* `[4.472]`
+- **water** HasProperty → *blue* `[4.000]`
+- **water** HasProperty → *dangerous* `[2.000]`
+- **water** HasProperty → *essential to human life* `[2.000]`
+- **water** HasProperty → *good to drink* `[2.000]`
+- *find underground* HasProperty → **water** `[2.828]`
+- *find underwater* HasProperty → **water** `[2.000]`
+- *seventy percent of earth's surface* HasProperty → **water** `[2.000]`
+- *most of earth's surface* HasProperty → **water** `[1.000]`
+- *most of earths surface* HasProperty → **water** `[1.000]`
+- *most of human's weight* HasProperty → **water** `[1.000]`
+- *opposite of land* HasProperty → **water** `[1.000]`
+
+---
+**Total relations:** 81

@@ -1,0 +1,107 @@
+# 🧠 Semantic Profile: 'tree' (EN)
+
+**Node:** `http://conceptnet.io/c/en/tree` → **tree**
+
+## IsA
+
+- **tree** IsA → *plant* `[2.828]`
+- **tree** IsA → *tall plant* `[2.000]`
+- **tree** IsA → *living thing* `[1.000]`
+- **tree** IsA → *usually about twenty feet tall* `[1.000]`
+- **tree** IsA → *wood* `[1.000]`
+- *find outside* IsA → **tree** `[3.464]`
+- *coca* IsA → **tree** `[2.000]`
+- *hickory* IsA → **tree** `[2.000]`
+- *holly* IsA → **tree** `[2.000]`
+- *oak* IsA → **tree** `[2.000]`
+- *oak* IsA → **tree** `[2.000]`
+- *another thing call fall* IsA → **tree** `[1.000]`
+
+## RelatedTo
+
+- **tree** RelatedTo → *plant* `[8.203]`
+- **tree** RelatedTo → *leaves* `[5.531]`
+- **tree** RelatedTo → *branches* `[5.084]`
+- **tree** RelatedTo → *big* `[3.970]`
+- **tree** RelatedTo → *forest* `[3.940]`
+- **tree** RelatedTo → *trunk* `[3.753]`
+- **tree** RelatedTo → *wood* `[3.673]`
+- *branch* RelatedTo → **tree** `[12.340]`
+- *squirrel* RelatedTo → **tree** `[10.857]`
+- *wood* RelatedTo → **tree** `[9.398]`
+- *nest* RelatedTo → **tree** `[6.515]`
+- *shade* RelatedTo → **tree** `[6.376]`
+- *leaf* RelatedTo → **tree** `[5.965]`
+- *stick* RelatedTo → **tree** `[5.182]`
+
+## PartOf
+
+- **tree** PartOf → *forest* `[4.472]`
+- **tree** PartOf → *forrest* `[2.000]`
+- **tree** PartOf → *forest* `[1.000]`
+- **tree** PartOf → *orchard* `[1.000]`
+- **tree** PartOf → *woods* `[1.000]`
+- *leaf* PartOf → **tree** `[5.657]`
+- *bark* PartOf → **tree** `[5.292]`
+
+## HasA
+
+- **tree** HasA → *leaves on branches* `[2.828]`
+- **tree** HasA → *trunk* `[2.000]`
+- **tree** HasA → *bark around outside of* `[1.000]`
+- **tree** HasA → *genn leaves* `[1.000]`
+- **tree** HasA → *leaves* `[1.000]`
+- **tree** HasA → *leaves in summer* `[1.000]`
+- **tree** HasA → *roots* `[1.000]`
+
+## UsedFor
+
+- **tree** UsedFor → *shade* `[3.464]`
+- **tree** UsedFor → *beauty* `[2.828]`
+- **tree** UsedFor → *climbing* `[2.828]`
+- **tree** UsedFor → *wood* `[2.828]`
+- **tree** UsedFor → *wind break* `[2.000]`
+- **tree** UsedFor → *add beauty* `[1.000]`
+- **tree** UsedFor → *aesthetics* `[1.000]`
+
+## CapableOf
+
+- **tree** CapableOf → *grow* `[6.000]`
+- **tree** CapableOf → *grow leaves* `[4.899]`
+- **tree** CapableOf → *shade lawn* `[4.472]`
+- **tree** CapableOf → *branch out* `[2.828]`
+- **tree** CapableOf → *branch into leaves* `[2.000]`
+- **tree** CapableOf → *cast shadow* `[2.000]`
+- **tree** CapableOf → *drop leaves* `[2.000]`
+
+## Synonym
+
+- **tree** Synonym → *tree* `[0.500]`
+
+## Antonym
+
+- **tree** Antonym → *bush* `[0.332]`
+
+## AtLocation
+
+- **tree** AtLocation → *state park* `[4.000]`
+- **tree** AtLocation → *back yard* `[1.000]`
+- **tree** AtLocation → *backyard* `[1.000]`
+- **tree** AtLocation → *fork in road* `[1.000]`
+- **tree** AtLocation → *jungle* `[1.000]`
+- **tree** AtLocation → *rainforest* `[1.000]`
+- **tree** AtLocation → *san francisco* `[1.000]`
+- *bird* AtLocation → **tree** `[4.472]`
+- *leaf* AtLocation → **tree** `[4.472]`
+- *fruit* AtLocation → **tree** `[4.000]`
+- *snake* AtLocation → **tree** `[4.000]`
+- *squirrel* AtLocation → **tree** `[4.000]`
+- *acorn* AtLocation → **tree** `[3.464]`
+- *leaves* AtLocation → **tree** `[3.464]`
+
+## HasProperty
+
+- **tree** HasProperty → *alive* `[2.828]`
+
+---
+**Total relations:** 71

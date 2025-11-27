@@ -1,0 +1,119 @@
+# 🧠 Semantic Profile: 'car' (EN)
+
+**Node:** `http://conceptnet.io/c/en/car` → **car**
+
+## IsA
+
+- **car** IsA → *motor vehicle* `[2.828]`
+- **car** IsA → *vehicle* `[2.828]`
+- **car** IsA → *another name for automobile* `[2.000]`
+- **car** IsA → *another word for automobile* `[2.000]`
+- **car** IsA → *machine* `[2.000]`
+- **car** IsA → *artifact* `[1.000]`
+- **car** IsA → *both transportation and status symbol* `[1.000]`
+- *volvo* IsA → **car** `[4.472]`
+- *honda* IsA → **car** `[3.464]`
+- *oldsmobile* IsA → **car** `[3.464]`
+- *bmw* IsA → **car** `[2.828]`
+- *volkswagen* IsA → **car** `[2.828]`
+- *hot rod* IsA → **car** `[2.000]`
+- *audi* IsA → **car** `[1.000]`
+
+## RelatedTo
+
+- **car** RelatedTo → *vehicle* `[6.574]`
+- **car** RelatedTo → *automobile* `[4.925]`
+- **car** RelatedTo → *wheels* `[3.237]`
+- **car** RelatedTo → *auto* `[3.080]`
+- **car** RelatedTo → *driving* `[2.520]`
+- **car** RelatedTo → *transportation* `[2.404]`
+- **car** RelatedTo → *four* `[2.108]`
+- *drive* RelatedTo → **car** `[10.472]`
+- *motor* RelatedTo → **car** `[5.165]`
+- *automobile* RelatedTo → **car** `[3.001]`
+- *seat* RelatedTo → **car** `[2.948]`
+- *oil* RelatedTo → **car** `[2.814]`
+- *road* RelatedTo → **car** `[2.802]`
+- *ride* RelatedTo → **car** `[2.653]`
+
+## PartOf
+
+- **car** PartOf → *train* `[1.000]`
+- *tire* PartOf → **car** `[4.472]`
+- *bumper* PartOf → **car** `[3.464]`
+- *engine* PartOf → **car** `[3.464]`
+- *horn* PartOf → **car** `[2.828]`
+- *wheels* PartOf → **car** `[2.828]`
+- *car horn* PartOf → **car** `[2.000]`
+- *carburator* PartOf → **car** `[2.000]`
+
+## HasA
+
+- **car** HasA → *seats* `[6.325]`
+- **car** HasA → *seat* `[2.828]`
+- **car** HasA → *windows* `[2.828]`
+- **car** HasA → *engine* `[2.000]`
+- **car** HasA → *headlights to increase visibility* `[2.000]`
+- **car** HasA → *4 tires* `[1.000]`
+- **car** HasA → *at least one engine* `[1.000]`
+- *good to* HasA → **car** `[1.000]`
+- *many people in texas* HasA → **car** `[1.000]`
+
+## UsedFor
+
+- **car** UsedFor → *fun* `[2.828]`
+- **car** UsedFor → *getting to work* `[2.000]`
+- **car** UsedFor → *carrying groceries* `[1.000]`
+- **car** UsedFor → *commute to work* `[1.000]`
+- **car** UsedFor → *drive around town* `[1.000]`
+- **car** UsedFor → *drive from place to place* `[1.000]`
+- **car** UsedFor → *drive on road* `[1.000]`
+- *driveway* UsedFor → **car** `[2.000]`
+
+## CapableOf
+
+- **car** CapableOf → *crash* `[6.325]`
+- **car** CapableOf → *go fast* `[6.325]`
+- **car** CapableOf → *roll over* `[5.292]`
+- **car** CapableOf → *slow down* `[4.899]`
+- **car** CapableOf → *cost lot of money* `[3.464]`
+- **car** CapableOf → *enter garage* `[3.464]`
+- **car** CapableOf → *pass another car* `[3.464]`
+
+## Synonym
+
+*No results*
+
+## Antonym
+
+- *cdr* Antonym → **car** `[2.000]`
+
+## AtLocation
+
+- **car** AtLocation → *city* `[7.483]`
+- **car** AtLocation → *parking lot* `[6.928]`
+- **car** AtLocation → *repair shop* `[5.657]`
+- **car** AtLocation → *road* `[4.472]`
+- **car** AtLocation → *freeway* `[4.000]`
+- **car** AtLocation → *car show* `[3.464]`
+- **car** AtLocation → *race track* `[3.464]`
+- *stereo* AtLocation → **car** `[4.000]`
+- *garage* AtLocation → **car** `[2.828]`
+- *mirror* AtLocation → **car** `[2.828]`
+- *passengers* AtLocation → **car** `[2.828]`
+- *trunk* AtLocation → **car** `[2.828]`
+- *umbrella* AtLocation → **car** `[2.828]`
+- *baggage trunk* AtLocation → **car** `[2.000]`
+
+## HasProperty
+
+- **car** HasProperty → *red* `[3.464]`
+- **car** HasProperty → *heavy* `[2.828]`
+- **car** HasProperty → *turning into driveway* `[2.000]`
+- **car** HasProperty → *big and blue* `[1.000]`
+- **car** HasProperty → *bought and sold* `[1.000]`
+- **car** HasProperty → *convenient to own* `[1.000]`
+- **car** HasProperty → *expensive* `[1.000]`
+
+---
+**Total relations:** 82

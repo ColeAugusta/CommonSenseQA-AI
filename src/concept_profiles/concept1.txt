@@ -1,0 +1,88 @@
+# 🧠 Semantic Profile: 'cat' (EN)
+
+**Node:** `http://conceptnet.io/c/en/cat` → **cat**
+
+## IsA
+
+- *kitten* IsA → **cat** `[4.472]`
+- *persian* IsA → **cat** `[4.000]`
+- *lynx* IsA → **cat** `[2.000]`
+- *tabby cat* IsA → **cat** `[2.000]`
+- *cougar* IsA → **cat** `[1.000]`
+- *find inside* IsA → **cat** `[1.000]`
+- *he cat* IsA → **cat** `[1.000]`
+
+## RelatedTo
+
+- **cat** RelatedTo → *feline* `[5.961]`
+- **cat** RelatedTo → *animal* `[5.881]`
+- **cat** RelatedTo → *pet* `[5.108]`
+- **cat** RelatedTo → *meow* `[3.064]`
+- **cat** RelatedTo → *kitten* `[2.233]`
+- **cat** RelatedTo → *house* `[2.027]`
+- **cat** RelatedTo → *dog* `[1.338]`
+- *kitten* RelatedTo → **cat** `[4.589]`
+- *dog* RelatedTo → **cat** `[3.622]`
+- *feline* RelatedTo → **cat** `[2.602]`
+- *animal* RelatedTo → **cat** `[2.571]`
+- *cats* RelatedTo → **cat** `[2.000]`
+- *kitty* RelatedTo → **cat** `[2.000]`
+- *mexican hairless* RelatedTo → **cat** `[2.000]`
+
+## PartOf
+
+- *tail* PartOf → **cat** `[2.000]`
+- *whisker* PartOf → **cat** `[1.000]`
+
+## HasA
+
+- **cat** HasA → *four legs* `[6.325]`
+- **cat** HasA → *sharp claws* `[4.000]`
+- **cat** HasA → *hair* `[2.000]`
+
+## UsedFor
+
+- **cat** UsedFor → *catch mice* `[4.000]`
+- **cat** UsedFor → *companionship* `[4.000]`
+- **cat** UsedFor → *pet* `[3.464]`
+
+## CapableOf
+
+- **cat** CapableOf → *hunt mice* `[7.483]`
+- **cat** CapableOf → *catch mouse* `[6.000]`
+- **cat** CapableOf → *drink water* `[6.000]`
+- **cat** CapableOf → *climb up tree* `[5.292]`
+- **cat** CapableOf → *corner mouse* `[4.899]`
+- **cat** CapableOf → *look at king* `[4.472]`
+- **cat** CapableOf → *kill birds* `[4.000]`
+
+## Synonym
+
+*No results*
+
+## Antonym
+
+- **cat** Antonym → *dog* `[1.759]`
+- *dog* Antonym → **cat** `[3.686]`
+
+## AtLocation
+
+- **cat** AtLocation → *lap* `[9.798]`
+- **cat** AtLocation → *bed* `[9.381]`
+- **cat** AtLocation → *windowsill* `[7.483]`
+- **cat** AtLocation → *chair* `[4.472]`
+- **cat** AtLocation → *table* `[4.472]`
+- **cat** AtLocation → *vet* `[4.472]`
+- **cat** AtLocation → *barn* `[4.000]`
+- *fleas* AtLocation → **cat** `[4.000]`
+- *mouse* AtLocation → **cat** `[2.000]`
+- *fur* AtLocation → **cat** `[1.000]`
+- *kitten* AtLocation → **cat** `[1.000]`
+
+## HasProperty
+
+- **cat** HasProperty → *feline* `[4.472]`
+- **cat** HasProperty → *hungry* `[2.828]`
+
+---
+**Total relations:** 51

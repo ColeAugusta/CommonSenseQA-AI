@@ -1,0 +1,111 @@
+# 🧠 Semantic Profile: 'food' (EN)
+
+**Node:** `http://conceptnet.io/c/en/food` → **food**
+
+## IsA
+
+- **food** IsA → *substance* `[2.828]`
+- **food** IsA → *foundation for health* `[1.000]`
+- **food** IsA → *fuel* `[1.000]`
+- **food** IsA → *fuel for people* `[1.000]`
+- **food** IsA → *good* `[1.000]`
+- **food** IsA → *grocery* `[1.000]`
+- **food** IsA → *human fuel* `[1.000]`
+- *butter* IsA → **food** `[7.483]`
+- *chicken* IsA → **food** `[7.211]`
+- *cheese* IsA → **food** `[6.325]`
+- *salad* IsA → **food** `[6.325]`
+- *corn* IsA → **food** `[6.000]`
+- *chocolate* IsA → **food** `[5.657]`
+- *soup* IsA → **food** `[5.292]`
+
+## RelatedTo
+
+- **food** RelatedTo → *breakfast* `[1.000]`
+- **food** RelatedTo → *brunch* `[1.000]`
+- **food** RelatedTo → *dinner* `[1.000]`
+- **food** RelatedTo → *dunch* `[1.000]`
+- **food** RelatedTo → *lunch* `[1.000]`
+- **food** RelatedTo → *meal* `[1.000]`
+- **food** RelatedTo → *supper* `[1.000]`
+- *cake* RelatedTo → **food** `[10.666]`
+- *plate* RelatedTo → **food** `[10.120]`
+- *rice* RelatedTo → **food** `[8.969]`
+- *bread* RelatedTo → **food** `[7.729]`
+- *soup* RelatedTo → **food** `[7.711]`
+- *chicken* RelatedTo → **food** `[6.887]`
+- *eat* RelatedTo → **food** `[6.358]`
+
+## PartOf
+
+*No results*
+
+## HasA
+
+- **food** HasA → *effect of suppressing hunger* `[1.000]`
+- *kosher deli might* HasA → **food** `[1.000]`
+- *minibar* HasA → **food** `[1.000]`
+- *restaurant and theatre* HasA → **food** `[1.000]`
+
+## UsedFor
+
+- **food** UsedFor → *eating* `[4.000]`
+- **food** UsedFor → *nourishment* `[3.464]`
+- **food** UsedFor → *energy* `[2.828]`
+- **food** UsedFor → *sustenance* `[2.828]`
+- **food** UsedFor → *eat* `[1.000]`
+- **food** UsedFor → *enhance sex* `[1.000]`
+- **food** UsedFor → *have fight* `[1.000]`
+- *animal* UsedFor → **food** `[2.000]`
+- *buffet* UsedFor → **food** `[2.000]`
+- *egg* UsedFor → **food** `[2.000]`
+
+## CapableOf
+
+- **food** CapableOf → *cost money* `[2.000]`
+- **food** CapableOf → *become moldy* `[1.000]`
+- **food** CapableOf → *cake on pans* `[1.000]`
+- **food** CapableOf → *cooked or uncooked* `[1.000]`
+- **food** CapableOf → *cost lot* `[1.000]`
+- **food** CapableOf → *elevate one's mood* `[1.000]`
+- **food** CapableOf → *feed animals* `[1.000]`
+- *chicken* CapableOf → **food** `[1.000]`
+
+## Synonym
+
+- **food** Synonym → *food* `[0.500]`
+
+## Antonym
+
+- **food** Antonym → *drink* `[0.132]`
+- *drink* Antonym → **food** `[1.227]`
+
+## AtLocation
+
+- **food** AtLocation → *refrigerator* `[8.246]`
+- **food** AtLocation → *kitchen* `[7.211]`
+- **food** AtLocation → *table* `[7.211]`
+- **food** AtLocation → *fridge* `[6.633]`
+- **food** AtLocation → *oven* `[6.633]`
+- **food** AtLocation → *supermarket* `[6.633]`
+- **food** AtLocation → *cupboard* `[4.899]`
+- *bone* AtLocation → **food** `[1.000]`
+- *container* AtLocation → **food** `[1.000]`
+- *crab* AtLocation → **food** `[1.000]`
+- *freezer* AtLocation → **food** `[1.000]`
+- *fungus* AtLocation → **food** `[1.000]`
+- *grape* AtLocation → **food** `[1.000]`
+- *hair* AtLocation → **food** `[1.000]`
+
+## HasProperty
+
+- **food** HasProperty → *edible* `[2.000]`
+- **food** HasProperty → *necessary to live* `[2.000]`
+- **food** HasProperty → *unhealthy* `[2.000]`
+- **food** HasProperty → *fried in wok* `[1.000]`
+- **food** HasProperty → *important to health* `[1.000]`
+- **food** HasProperty → *mexican* `[1.000]`
+- **food** HasProperty → *necessary for survival* `[1.000]`
+
+---
+**Total relations:** 74

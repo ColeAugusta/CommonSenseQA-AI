@@ -1,0 +1,99 @@
+# 🧠 Semantic Profile: 'dog' (EN)
+
+**Node:** `http://conceptnet.io/c/en/dog` → **dog**
+
+## IsA
+
+- **dog** IsA → *loyal friend* `[6.633]`
+- **dog** IsA → *pet* `[6.000]`
+- **dog** IsA → *mammal* `[5.292]`
+- **dog** IsA → *canine* `[4.899]`
+- **dog** IsA → *good friend* `[3.464]`
+- **dog** IsA → *four legged animal* `[2.828]`
+- **dog** IsA → *curious observer of mankind* `[2.000]`
+- *poodle* IsA → **dog** `[4.899]`
+- *puppy* IsA → **dog** `[4.899]`
+- *spaniel* IsA → **dog** `[4.899]`
+- *beagle* IsA → **dog** `[3.464]`
+- *cocker spaniel* IsA → **dog** `[3.464]`
+- *irish setter* IsA → **dog** `[3.464]`
+- *great dane* IsA → **dog** `[2.828]`
+
+## RelatedTo
+
+- **dog** RelatedTo → *pet* `[9.830]`
+- **dog** RelatedTo → *animal* `[9.410]`
+- **dog** RelatedTo → *canine* `[7.626]`
+- **dog** RelatedTo → *woof* `[4.396]`
+- **dog** RelatedTo → *bark* `[3.977]`
+- **dog** RelatedTo → *tail* `[3.891]`
+- **dog** RelatedTo → *wolf* `[3.879]`
+- *flea* RelatedTo → **dog** `[9.021]`
+- *animal* RelatedTo → **dog** `[3.129]`
+- *bone* RelatedTo → **dog** `[2.902]`
+- *pet* RelatedTo → **dog** `[2.418]`
+- *god* RelatedTo → **dog** `[2.077]`
+- *puppy* RelatedTo → **dog** `[2.075]`
+- *pup* RelatedTo → **dog** `[2.067]`
+
+## PartOf
+
+- *legs* PartOf → **dog** `[1.000]`
+
+## HasA
+
+- **dog** HasA → *four legs* `[5.292]`
+- **dog** HasA → *fleas* `[4.000]`
+- **dog** HasA → *paws* `[2.828]`
+- **dog** HasA → *teeth* `[2.828]`
+- **dog** HasA → *two ears* `[2.828]`
+- **dog** HasA → *nose* `[2.000]`
+
+## UsedFor
+
+- **dog** UsedFor → *companionship* `[6.325]`
+- **dog** UsedFor → *guarding property* `[2.828]`
+- **dog** UsedFor → *pet* `[2.828]`
+- **dog** UsedFor → *guard house* `[2.000]`
+- **dog** UsedFor → *keep company* `[2.000]`
+- **dog** UsedFor → *keeping company* `[2.000]`
+
+## CapableOf
+
+- **dog** CapableOf → *bark* `[16.000]`
+- **dog** CapableOf → *guard house* `[10.392]`
+- **dog** CapableOf → *pet* `[7.483]`
+- **dog** CapableOf → *run* `[6.000]`
+- **dog** CapableOf → *guide blind person* `[5.292]`
+- **dog** CapableOf → *drink water* `[4.472]`
+- **dog** CapableOf → *guard property* `[4.472]`
+
+## Synonym
+
+- *chien* Synonym → **dog** `[2.000]`
+
+## Antonym
+
+- **dog** Antonym → *cat* `[3.686]`
+- *cat* Antonym → **dog** `[1.759]`
+- *lulu* Antonym → **dog** `[1.000]`
+
+## AtLocation
+
+- **dog** AtLocation → *kennel* `[9.381]`
+- **dog** AtLocation → *table* `[5.657]`
+- **dog** AtLocation → *park* `[4.899]`
+- **dog** AtLocation → *doghouse* `[4.472]`
+- **dog** AtLocation → *dog house* `[4.000]`
+- **dog** AtLocation → *backyard* `[3.464]`
+- **dog** AtLocation → *porch* `[3.464]`
+- *fleas* AtLocation → **dog** `[3.464]`
+- *fleas in or rather* AtLocation → **dog** `[1.000]`
+
+## HasProperty
+
+- **dog** HasProperty → *fun* `[2.828]`
+- **dog** HasProperty → *black* `[2.000]`
+
+---
+**Total relations:** 63

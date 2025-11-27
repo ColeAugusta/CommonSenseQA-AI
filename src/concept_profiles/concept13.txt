@@ -1,0 +1,107 @@
+# 🧠 Semantic Profile: 'chair' (EN)
+
+**Node:** `http://conceptnet.io/c/en/chair` → **chair**
+
+## IsA
+
+- **chair** IsA → *better than what use* `[1.000]`
+- **chair** IsA → *commortable to sit* `[1.000]`
+- **chair** IsA → *place* `[1.000]`
+- **chair** IsA → *stool* `[1.000]`
+- *armchair* IsA → **chair** `[4.000]`
+- *wheelchair* IsA → **chair** `[2.828]`
+- *chairman* IsA → **chair** `[2.000]`
+- *sofa* IsA → **chair** `[2.000]`
+- *armchair* IsA → **chair** `[1.000]`
+- *chairwoman* IsA → **chair** `[1.000]`
+- *comforter* IsA → **chair** `[1.000]`
+
+## RelatedTo
+
+- **chair** RelatedTo → *sitting* `[7.795]`
+- **chair** RelatedTo → *seat* `[6.779]`
+- **chair** RelatedTo → *furniture* `[6.461]`
+- **chair** RelatedTo → *sit* `[5.279]`
+- **chair** RelatedTo → *table* `[4.235]`
+- **chair** RelatedTo → *legs* `[4.076]`
+- **chair** RelatedTo → *sitting furniture* `[3.241]`
+- *seat* RelatedTo → **chair** `[7.522]`
+- *table* RelatedTo → **chair** `[3.202]`
+- *desk* RelatedTo → **chair** `[2.847]`
+- *rocker* RelatedTo → **chair** `[1.362]`
+- *رأس* RelatedTo → **chair** `[1.000]`
+- *كرسي* RelatedTo → **chair** `[1.000]`
+- *مقر* RelatedTo → **chair** `[1.000]`
+
+## PartOf
+
+- **chair** PartOf → *funiture* `[2.000]`
+- *leg* PartOf → **chair** `[2.000]`
+
+## HasA
+
+- **chair** HasA → *four legs* `[2.000]`
+- **chair** HasA → *legs* `[1.000]`
+
+## UsedFor
+
+- **chair** UsedFor → *resting* `[3.464]`
+- **chair** UsedFor → *block door* `[1.000]`
+- **chair** UsedFor → *electrocuting condemend* `[1.000]`
+- **chair** UsedFor → *leading meeting* `[1.000]`
+- **chair** UsedFor → *offer hospitality* `[1.000]`
+- **chair** UsedFor → *person to seat* `[1.000]`
+- **chair** UsedFor → *reach high cupboards* `[1.000]`
+
+## CapableOf
+
+- **chair** CapableOf → *facing door* `[1.000]`
+- **chair** CapableOf → *head committee* `[1.000]`
+- **chair** CapableOf → *stand alone* `[1.000]`
+- **chair** CapableOf → *touching wall* `[1.000]`
+
+## Synonym
+
+- **chair** Synonym → *chair* `[0.500]`
+- *chairperson* Synonym → **chair** `[2.000]`
+- *chaise* Synonym → **chair** `[2.000]`
+- *كرسي* Synonym → **chair** `[1.000]`
+- *lehrstuhl* Synonym → **chair** `[1.000]`
+- *stuhl* Synonym → **chair** `[1.000]`
+- *vorsitz* Synonym → **chair** `[1.000]`
+- *président* Synonym → **chair** `[1.000]`
+
+## Antonym
+
+- **chair** Antonym → *table* `[0.953]`
+- **chair** Antonym → *stool* `[0.356]`
+- **chair** Antonym → *stand* `[0.180]`
+- **chair** Antonym → *relaxer* `[0.164]`
+- **chair** Antonym → *couch* `[0.152]`
+- *table* Antonym → **chair** `[0.744]`
+- *desk* Antonym → **chair** `[0.508]`
+- *bed* Antonym → **chair** `[0.500]`
+
+## AtLocation
+
+- **chair** AtLocation → *office* `[8.485]`
+- **chair** AtLocation → *desk* `[6.633]`
+- **chair** AtLocation → *cubicle* `[3.464]`
+- **chair** AtLocation → *porch* `[3.464]`
+- **chair** AtLocation → *church* `[2.828]`
+- **chair** AtLocation → *kitchen* `[2.828]`
+- **chair** AtLocation → *living room* `[2.828]`
+- *cat* AtLocation → **chair** `[4.472]`
+- *human* AtLocation → **chair** `[2.828]`
+- *arm* AtLocation → **chair** `[1.000]`
+- *attache case* AtLocation → **chair** `[1.000]`
+- *leg* AtLocation → **chair** `[1.000]`
+- *rock* AtLocation → **chair** `[1.000]`
+- *sloth* AtLocation → **chair** `[1.000]`
+
+## HasProperty
+
+- **chair** HasProperty → *soft or hard* `[1.000]`
+
+---
+**Total relations:** 71

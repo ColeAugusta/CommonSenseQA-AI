@@ -1,0 +1,95 @@
+# 🧠 Semantic Profile: 'phone' (EN)
+
+**Node:** `http://conceptnet.io/c/en/phone` → **phone**
+
+## IsA
+
+- **phone** IsA → *device* `[2.000]`
+- **phone** IsA → *abbreviation of telephone* `[1.000]`
+- **phone** IsA → *another way of saying telephone* `[1.000]`
+- **phone** IsA → *form of communication* `[1.000]`
+- **phone** IsA → *machine* `[1.000]`
+- **phone** IsA → *manufactured device* `[1.000]`
+- **phone** IsA → *short way of saying telephone* `[1.000]`
+- *cellphone* IsA → **phone** `[1.000]`
+- *cellular phone* IsA → **phone** `[1.000]`
+- *mobile phone* IsA → **phone** `[1.000]`
+- *mobile phone* IsA → **phone** `[1.000]`
+
+## RelatedTo
+
+- **phone** RelatedTo → *device* `[2.726]`
+- **phone** RelatedTo → *communication* `[2.069]`
+- **phone** RelatedTo → *cell* `[2.025]`
+- **phone** RelatedTo → *language* `[1.000]`
+- **phone** RelatedTo → *sound* `[1.000]`
+- **phone** RelatedTo → *speaker* `[1.000]`
+- **phone** RelatedTo → *telephone* `[1.000]`
+- *call* RelatedTo → **phone** `[10.132]`
+- *cell* RelatedTo → **phone** `[5.698]`
+- *phonetic* RelatedTo → **phone** `[2.000]`
+- *ring* RelatedTo → **phone** `[1.600]`
+- *dial* RelatedTo → **phone** `[1.310]`
+- *apparat* RelatedTo → **phone** `[1.000]`
+- *handy* RelatedTo → **phone** `[1.000]`
+
+## PartOf
+
+- *keypad* PartOf → **phone** `[1.000]`
+
+## HasA
+
+*No results*
+
+## UsedFor
+
+- **phone** UsedFor → *communication* `[4.899]`
+- **phone** UsedFor → *calling* `[3.464]`
+- **phone** UsedFor → *make call* `[2.000]`
+- **phone** UsedFor → *talking* `[2.000]`
+- **phone** UsedFor → *calling friends* `[1.000]`
+- **phone** UsedFor → *communicating* `[1.000]`
+- *machine* UsedFor → **phone** `[2.000]`
+- *telephone room* UsedFor → **phone** `[1.000]`
+
+## CapableOf
+
+- **phone** CapableOf → *make calls* `[2.000]`
+- **phone** CapableOf → *ring incessantly* `[1.000]`
+- **phone** CapableOf → *ring loudly* `[1.000]`
+- **phone** CapableOf → *ring three times* `[1.000]`
+- **phone** CapableOf → *ring until answered* `[1.000]`
+
+## Synonym
+
+- **phone** Synonym → *phone* `[1.000]`
+- **phone** Synonym → *fono* `[1.000]`
+- *fon* Synonym → **phone** `[1.000]`
+- *phon* Synonym → **phone** `[1.000]`
+- *telefon* Synonym → **phone** `[1.000]`
+- *phone up* Synonym → **phone** `[1.000]`
+- *telephone* Synonym → **phone** `[1.000]`
+- *telephone* Synonym → **phone** `[1.000]`
+- *phone* Synonym → **phone** `[1.000]`
+
+## Antonym
+
+- *wallet* Antonym → **phone** `[0.135]`
+
+## AtLocation
+
+- **phone** AtLocation → *desk* `[7.483]`
+- **phone** AtLocation → *house* `[2.000]`
+- **phone** AtLocation → *motel* `[2.000]`
+- **phone** AtLocation → *office* `[2.000]`
+- **phone** AtLocation → *at hotel* `[1.000]`
+- **phone** AtLocation → *desktop* `[1.000]`
+- **phone** AtLocation → *neighbor's house* `[1.000]`
+- *keypad* AtLocation → **phone** `[1.000]`
+
+## HasProperty
+
+- **phone** HasProperty → *one kind of electric machine* `[1.000]`
+
+---
+**Total relations:** 58

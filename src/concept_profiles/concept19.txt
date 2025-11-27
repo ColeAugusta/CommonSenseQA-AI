@@ -1,0 +1,102 @@
+# 🧠 Semantic Profile: 'building' (EN)
+
+**Node:** `http://conceptnet.io/c/en/building` → **building**
+
+## IsA
+
+- **building** IsA → *artificial structure* `[2.000]`
+- **building** IsA → *bigger than person* `[1.000]`
+- **building** IsA → *condominium* `[1.000]`
+- **building** IsA → *constructed structure* `[1.000]`
+- **building** IsA → *form of creation* `[1.000]`
+- **building** IsA → *where people might live* `[1.000]`
+- **building** IsA → *where sex happens* `[1.000]`
+- *high rise* IsA → **building** `[6.633]`
+- *library* IsA → **building** `[3.464]`
+- *church* IsA → **building** `[2.828]`
+- *find downtown* IsA → **building** `[2.828]`
+- *duplex* IsA → **building** `[2.000]`
+- *school* IsA → **building** `[2.000]`
+- *stable* IsA → **building** `[2.000]`
+
+## RelatedTo
+
+- **building** RelatedTo → *structure* `[1.678]`
+- **building** RelatedTo → *construction* `[0.758]`
+- **building** RelatedTo → *city* `[0.683]`
+- **building** RelatedTo → *skyscraper* `[0.534]`
+- **building** RelatedTo → *house* `[0.382]`
+- **building** RelatedTo → *rooms* `[0.382]`
+- **building** RelatedTo → *tall* `[0.357]`
+- *bank* RelatedTo → **building** `[6.957]`
+- *house* RelatedTo → **building** `[6.724]`
+- *school* RelatedTo → **building** `[5.386]`
+- *wood* RelatedTo → **building** `[4.525]`
+- *structure* RelatedTo → **building** `[4.474]`
+- *church* RelatedTo → **building** `[4.368]`
+- *home* RelatedTo → **building** `[4.228]`
+
+## PartOf
+
+- *window* PartOf → **building** `[4.000]`
+- *room* PartOf → **building** `[2.828]`
+- *basement* PartOf → **building** `[1.000]`
+- *foundation* PartOf → **building** `[1.000]`
+- *lobby* PartOf → **building** `[1.000]`
+
+## HasA
+
+- **building** HasA → *foundation* `[2.000]`
+- **building** HasA → *no cells* `[1.000]`
+
+## UsedFor
+
+- **building** UsedFor → *shelter* `[2.828]`
+- **building** UsedFor → *house business* `[1.000]`
+- **building** UsedFor → *housing* `[1.000]`
+- **building** UsedFor → *housing people or items* `[1.000]`
+- **building** UsedFor → *inhabitants* `[1.000]`
+- **building** UsedFor → *live in* `[1.000]`
+- **building** UsedFor → *office space* `[1.000]`
+- *wood* UsedFor → **building** `[2.828]`
+- *board* UsedFor → **building** `[2.000]`
+- *tool* UsedFor → **building** `[2.000]`
+
+## CapableOf
+
+- **building** CapableOf → *weather storm* `[3.464]`
+- **building** CapableOf → *fall down* `[2.000]`
+- **building** CapableOf → *cast shadow* `[1.000]`
+- **building** CapableOf → *face north* `[1.000]`
+- **building** CapableOf → *target* `[1.000]`
+
+## Synonym
+
+- **building** Synonym → *building* `[0.500]`
+- *erection* Synonym → **building** `[2.000]`
+
+## Antonym
+
+- *park* Antonym → **building** `[1.000]`
+
+## AtLocation
+
+- **building** AtLocation → *town* `[4.899]`
+- **building** AtLocation → *office* `[1.000]`
+- **building** AtLocation → *rooms* `[1.000]`
+- **building** AtLocation → *urban area* `[1.000]`
+- *door* AtLocation → **building** `[6.928]`
+- *computer* AtLocation → **building** `[4.472]`
+- *people* AtLocation → **building** `[4.472]`
+- *stairs* AtLocation → **building** `[4.472]`
+- *ceiling* AtLocation → **building** `[4.000]`
+- *ground floor* AtLocation → **building** `[4.000]`
+- *offices* AtLocation → **building** `[4.000]`
+
+## HasProperty
+
+- **building** HasProperty → *man made* `[3.464]`
+- **building** HasProperty → *dark* `[1.000]`
+
+---
+**Total relations:** 66

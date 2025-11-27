@@ -1,0 +1,110 @@
+# 🧠 Semantic Profile: 'book' (EN)
+
+**Node:** `http://conceptnet.io/c/en/book` → **book**
+
+## IsA
+
+- **book** IsA → *excellent source of information* `[2.000]`
+- **book** IsA → *device* `[1.000]`
+- **book** IsA → *document type* `[1.000]`
+- **book** IsA → *many pages of information bound together* `[1.000]`
+- **book** IsA → *object* `[1.000]`
+- **book** IsA → *slang for leaving* `[1.000]`
+- **book** IsA → *story for mind* `[1.000]`
+- *bible* IsA → **book** `[5.292]`
+- *ledger* IsA → **book** `[4.000]`
+- *novel* IsA → **book** `[4.000]`
+- *text* IsA → **book** `[4.000]`
+- *magazine* IsA → **book** `[2.000]`
+- *biography* IsA → **book** `[1.000]`
+- *catalog* IsA → **book** `[1.000]`
+
+## RelatedTo
+
+- **book** RelatedTo → *pages* `[6.725]`
+- **book** RelatedTo → *reading* `[6.298]`
+- **book** RelatedTo → *library* `[3.586]`
+- **book** RelatedTo → *material* `[3.455]`
+- **book** RelatedTo → *reading material* `[3.342]`
+- **book** RelatedTo → *novel* `[3.293]`
+- **book** RelatedTo → *read* `[3.261]`
+- *page* RelatedTo → **book** `[10.565]`
+- *reading* RelatedTo → **book** `[8.381]`
+- *dictionary* RelatedTo → **book** `[8.070]`
+- *story* RelatedTo → **book** `[5.589]`
+- *library* RelatedTo → **book** `[5.000]`
+- *cover* RelatedTo → **book** `[4.756]`
+- *paper* RelatedTo → **book** `[4.718]`
+
+## PartOf
+
+- **book** PartOf → *library* `[7.211]`
+- *chapter* PartOf → **book** `[5.292]`
+- *page* PartOf → **book** `[2.828]`
+- *pages* PartOf → **book** `[2.828]`
+- *table of contents* PartOf → **book** `[2.000]`
+- *epilog* PartOf → **book** `[1.000]`
+- *paragraph* PartOf → **book** `[1.000]`
+- *spine* PartOf → **book** `[1.000]`
+
+## HasA
+
+- **book** HasA → *knowledge* `[4.472]`
+- **book** HasA → *cover* `[4.000]`
+- **book** HasA → *many words* `[2.000]`
+- **book** HasA → *pages* `[2.000]`
+- **book** HasA → *words and or pictures* `[2.000]`
+- **book** HasA → *at least few page* `[1.000]`
+- **book** HasA → *been printed new* `[1.000]`
+
+## UsedFor
+
+- **book** UsedFor → *learning* `[8.246]`
+- **book** UsedFor → *entertainment* `[2.828]`
+- **book** UsedFor → *developing perspective* `[2.000]`
+- **book** UsedFor → *education* `[2.000]`
+- **book** UsedFor → *learn* `[2.000]`
+- **book** UsedFor → *learn from* `[2.000]`
+- **book** UsedFor → *recording charges in police register* `[2.000]`
+
+## CapableOf
+
+- **book** CapableOf → *include index* `[1.000]`
+- **book** CapableOf → *include table of contents* `[1.000]`
+- **book** CapableOf → *teach earth round* `[1.000]`
+- **book** CapableOf → *teach person to sing* `[1.000]`
+- *text* CapableOf → **book** `[1.000]`
+- *tv guide* CapableOf → **book** `[1.000]`
+
+## Synonym
+
+*No results*
+
+## Antonym
+
+*No results*
+
+## AtLocation
+
+- **book** AtLocation → *classroom* `[6.325]`
+- **book** AtLocation → *shelf* `[5.292]`
+- **book** AtLocation → *bookshelf* `[4.899]`
+- **book** AtLocation → *university* `[4.000]`
+- **book** AtLocation → *desk* `[3.464]`
+- **book** AtLocation → *store* `[3.464]`
+- **book** AtLocation → *backpack* `[2.828]`
+- *information* AtLocation → **book** `[4.000]`
+- *words* AtLocation → **book** `[3.464]`
+- *anemone* AtLocation → **book** `[2.000]`
+- *kingdom* AtLocation → **book** `[2.000]`
+- *marker* AtLocation → **book** `[2.000]`
+- *paper page* AtLocation → **book** `[2.000]`
+- *bald eagle* AtLocation → **book** `[1.000]`
+
+## HasProperty
+
+- **book** HasProperty → *up on top shelf* `[2.000]`
+- **book** HasProperty → *made of paper* `[1.000]`
+
+---
+**Total relations:** 72
