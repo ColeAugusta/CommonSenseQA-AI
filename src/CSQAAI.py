@@ -1,8 +1,3 @@
-"""
-main.py
-Simple common sense question answering using ConceptNet GNN
-"""
-
 import torch
 import torch.nn.functional as F
 from train_gnn import (
@@ -14,9 +9,9 @@ from build_graph import load_graph, load_mappings
 import re
 import os
 
+# Source of main for the entire CommonsenseQA-AI project
 
 class CommonSenseQA:
-    """Answer common sense questions using ConceptNet GNN"""
     
     def __init__(self):
         self.model = None
@@ -27,18 +22,15 @@ class CommonSenseQA:
         self._initialize()
     
     def _initialize(self):
-        """Load model and generate embeddings"""
         print("Loading ConceptNet model...")
         
-        # Load graph
         self.data = load_graph('./saves/conceptnet_graph.pt')
         self.mappings = load_mappings('./saves/conceptnet_mappings.pkl')
         
-        # Load or create model
         if os.path.exists('./saves/best_model.pt'):
             self.model, _, _, _ = load_model('./saves/best_model.pt', self.device)
         else:
-            # Create untrained model
+            # creates untrained model if model doesnt exist. shouldnt use this
             input_dim = self.data.x.shape[1]
             self.model = GCNsimple(input_dim, 64, 32)
             print("Warning: Using untrained model")
@@ -46,23 +38,19 @@ class CommonSenseQA:
         self.model.to(self.device)
         self.data = self.data.to(self.device)
         
-        # Generate embeddings
         self.embeddings = create_node_embeddings(self.model, self.data)
         
         print("Model ready.\n")
     
+    # simple pulls concepts from question
     def extract_concepts(self, text):
-        """Extract concepts from text that exist in the graph"""
-        # Simple word extraction (lowercase, remove punctuation)
         words = re.findall(r'\b[a-z]+\b', text.lower())
         
-        # Filter to concepts in graph
         concepts = [w for w in words if w in self.mappings['node_to_idx']]
         
         return concepts
     
     def get_concept_embedding(self, concept):
-        """Get embedding for a concept"""
         if concept not in self.mappings['node_to_idx']:
             return None
         
@@ -70,15 +58,14 @@ class CommonSenseQA:
         return self.embeddings[idx]
     
     def find_related_concepts(self, concept, top_k=5):
-        """Find concepts related to the query concept"""
         emb = self.get_concept_embedding(concept)
         if emb is None:
             return []
         
-        # Compute similarity to all concepts
+        # cosine similarity to all concepts
         similarities = F.cosine_similarity(emb.unsqueeze(0), self.embeddings)
         
-        # Get top-k (excluding self)
+        # get top-K excluding self
         top_scores, top_indices = similarities.topk(top_k + 1)
         
         results = []
@@ -89,13 +76,12 @@ class CommonSenseQA:
         return results
     
     def get_edge_relations(self, concept):
-        """Get direct relations from the graph for a concept"""
         if concept not in self.mappings['node_to_idx']:
             return []
         
         node_idx = self.mappings['node_to_idx'][concept]
         
-        # Find edges where this node is the source
+        # find edges where this node is the source
         mask = self.data.edge_index[0] == node_idx
         target_indices = self.data.edge_index[1][mask]
         edge_types = self.data.edge_type[mask]
@@ -107,27 +93,23 @@ class CommonSenseQA:
             relation_type = self.mappings['idx_to_relation'][edge_type.item()]
             relations.append((relation_type, target_node, weight.item()))
         
-        # Sort by weight
+        # sort by weight
         relations.sort(key=lambda x: x[2], reverse=True)
         
-        return relations[:10]  # Top 10 relations
+        return relations[:10]
     
     def answer_question(self, question):
-        """Answer a common sense question"""
         
-        # Extract concepts from question
         concepts = self.extract_concepts(question)
         
         if not concepts:
             return "I don't recognize any concepts from the question in my knowledge base."
         
-        # Determine question type
         question_lower = question.lower()
         
-        # Build answer based on question type and concepts
         main_concept = concepts[0]
         
-        # Get direct relations for main concept
+        # get direct relations for main concept
         relations = self.get_edge_relations(main_concept)
         relation_dict = {}
         for rel_type, target, weight in relations:
@@ -135,7 +117,8 @@ class CommonSenseQA:
                 relation_dict[rel_type] = []
             relation_dict[rel_type].append(target)
         
-        # Generate natural language answer based on question type
+        # generate NLP answer here based on question type
+        # simple, template based
         
         # "What is" questions
         if any(phrase in question_lower for phrase in ['what is', 'what are', 'what\'s']):
@@ -217,18 +200,18 @@ class CommonSenseQA:
         elif len(concepts) >= 2:
             concept1, concept2 = concepts[0], concepts[1]
             
-            # Get similar concepts for both
+            # get similar concepts for both
             similar1 = self.find_related_concepts(concept1, top_k=5)
             similar2 = self.find_related_concepts(concept2, top_k=5)
             
-            # Check if they're in each other's similar list
+            # check if they're in each other's similar list
             similar1_names = [name for name, _ in similar1]
             similar2_names = [name for name, _ in similar2]
             
             if concept2 in similar1_names or concept1 in similar2_names:
                 return f"{concept1.capitalize()} and {concept2} are related concepts that share similar properties."
             else:
-                # Compare embeddings
+                # compare embeddings
                 emb1 = self.get_concept_embedding(concept1)
                 emb2 = self.get_concept_embedding(concept2)
                 if emb1 is not None and emb2 is not None:
@@ -241,6 +224,7 @@ class CommonSenseQA:
                         return f"{concept1.capitalize()} and {concept2} are not closely related concepts."
         
         # Default: provide general information
+        # shouldn't be used, except for questions outside one of the link types
         else:
             answer_parts = []
             
@@ -261,8 +245,8 @@ class CommonSenseQA:
             else:
                 return f"I know about {main_concept}, but I don't have detailed information to answer your question."
     
+    # main QA system loop
     def run(self):
-        """Main loop - wait for questions and answer"""
         print("Common Sense Q&A System")
         print("Ask me anything! (type 'quit' to exit)")
         print("-" * 60)
@@ -295,7 +279,6 @@ class CommonSenseQA:
 
 
 def main():
-    """Entry point"""
     qa = CommonSenseQA()
     qa.run()
 

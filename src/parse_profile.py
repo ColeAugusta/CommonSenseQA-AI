@@ -13,7 +13,7 @@ def parse_file(filepath: str) -> Dict:
     node_match = re.search(r'\*\*Node:\*\* `(.+?)` → \*\*(.+?)\*\*', text)
     main_node = node_match.group(2) if node_match else None
 
-    # edge pattern matching
+    # edge pattern matching idk it works
     edge_pattern = re.compile(
         r'- (?:\*\*)?(.+?)(?:\*\*)? (\w+) → (?:\*)?(?:\*\*)?(.+?)(?:\*\*)?(?:\*)? `\[([0-9.]+)\]`'
     )
